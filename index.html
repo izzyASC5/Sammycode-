@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Amarante&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Sammy</h1>
+    </header>
+    <h2> Who Am I? </h2>
+    <p>
+    Hi, I am Sammy Salama. Even though I am only only 15 years old, I'm a professional singer. I can sing in different languages like Italian, Hebrew and Arabic. I love music and simply couldn't imagine my life without it.
+    As the youngest one of four children, no one ever listened to me, except when I sang. The only time I ever truly felt heard is when I am singing. I started singing from the time I could speak. 
+    I even use singing to help me study and complete my school work by writing songs about different subjects I am studying.
+    In the future, I hope to produce my own music and travel the world on tour. 
+    </p>
+
+<h2> My Education</h2>
+<p>I am currently a freshman at The Professional Performing Arts School in New York, New York. I am currently on the school's honor roll.
+</p>
+<h2>My Performances</h2>
+<p>I have been part of multiple music groups and performed around the world. Some of my more 
+favorite performances were at the Vatican in Rome, Italy, the Vienna Opera house in Vienna, Austria and Carnegie Hall in New York, New York.</p><br>
+<h2>
+  Click below to see photos or videos of me performing.
+</h2>
+
+
+<!-- Images used to open the lightbox -->
+<div class="row">
+        <div class="column">
+          <img src="IMG_0699 (2).jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img src="IMG_0698 (3).jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img src="IMG_0351.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img src="IMG_2004.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+        </div>
+      </div>
+      
+      <!-- The Modal/Lightbox -->
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="IMG_0699 (2).jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="IMG_0698 (3).jpg" style="width:100%">
+          </div>
+          <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="IMG_0351.jpg" style="width:100%">
+              </div>
+              <div class="mySlides">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="IMG_2004.jpg" style="width:100%">
+                  </div>
+      
+          
+      
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <!-- Caption text -->
+          <div class="caption-container">
+            <p id="caption">My performances</p>
+          </div>
+      
+        </div>
+      </div>
+      <div class ="videodiv">
+      <video width="200" controls>
+        <source src="media.io_IMG_5539.mp4" type="video/mp4">
+      </video>
+      <video width="200" controls>
+        <source src="755cb400-5f12-44a6-b263-d85b9326c224.MP4" type="video/mp4">
+      </video>
+      <video width="200" controls>
+        <source src="Italian_singing.mp4" type="video/mp4">
+      </video>
+      <video width="200" controls>
+        <source src="VIDEO-2019-09-02-09-27-13.mp4" type="video/mp4">
+      </video>
+      </div>
+      <!-- YOOOOOOOO
+      lol IK 
+      its a lot. 
+      
+      ok lemme take a quick look
+      okee i went live so you can see the actual page.
+      wait why don't i see it
+      can you like do it one more time lmao
+      did it work? I did it again.
+      I have chrome open, nothing happened
+      idk http://127.0.0.1:5500/index.html try that
+      ok that worked
+      yay
+      geez those pics are huge
+      ok lemme check your css
+      IKR its honestly funny
+      son you really struggling to spell hilarious LMFAOOOOOO
+      HAHAHHA I looked it and gave up. usally spell check got me covered
+      HAHAHAH ok one question tho
+      what's up with the number text, like what is that doing
+      so click on the pics 
+      it goes big and then it says the number of the pic. TBH its so small you cant see it but its fine.
+      ok i just clicked and saw it HAHAHAH
+      do you want the pics to all have the same formatting?
+      yea or at least the same size.
+      ok so I think you should just put all of them into a class and then format the class in css
+      they are. their in class column
+      son has classes row and column, im dying
+      cuz like thats what was online. 
+      bro i think the problem is that the div class is not the column, so instead of formatting the image itself
+      it is formatting the box, per se and it isn't doing anything to the image
+      so i shough give the pics a class
+      bro im gonna check one of my projects to see if you can just give the images classes, as opposed to divs
+      surrounding the images
+      ik you can give images class. Ive done that on so many other projects
+      nvm i was about to say sum dumb stuff
+      so just give each image the same class (like within the image tag) and then try formatting it that way.
+      the images have clss already
+      yeah i just saw wth
+      maybe you can give it an id then?
+      AH I broke it their tiny now 
+      LMAOOO
+      ill just add more pics then. THank YOU SO MUCH YOUR A LIFE SAVER 
+      bro that was all you, you just needed some guidance ;) 
+      THATS A FACT YOU SHOULD rlly be a TF youd be amazing at it 
+      awww omg izzy please don't make me cry right now
+      thank you, i really would do it too, since I work so closely with ASC now
+      i just already have a confirmed job so like no lmao
+      yea i hear you. well thx bro you really helped me 
+      dude, literally ANYTIME BRO
+      
+      can i actually try something rq yea 
+      bro i tried to apply the same dimensions to all of them, two of them look stupid now LMAO
+      lmaooo its okay they are meant to be zoomed in on 
+      ok then, if you have that mindset, make your own dimensions, but also make it implied to zoom in on
+      yea i was gonna say like click below to see pictures of me Performing
+      yeah sounds good
+      you desperately need some display:flex tho bro LMAO
+      lol rlly for what
+      I think you could use it on the div with the pictures so that you can align them properly
+      like above it is really spacious but beneath is close to all of our text from chatting HAHAHAH
+      LOL I thought that was just padding 
+      oh actually, yeah you could use padding, but also flex to move it to the center too tho,
+      it would look a lot better i think
+      alright ill fix that tom i think im done for tonight 
+      bet bet glad to help you bro
+      also, is this about Sammy, like is it fr?
+      lol yes thats my bro. and im doing it the application for ASC 
+      OMG BRO NO WAY BRO PLEASE LEMME HELP YOU BODY THIS 
+      Bro I wish like invite you over. but the front of my house 
+      like doesnt exist anymore cuz were renovating
+      LMAO bro idk why that was funny to me, but nah hmu and we can just do it like this again
+      or maybe over like facetime or something next time so we don't ruin your page w all this text
+      i think our text make it prettier 
+      HAHAH
+      but yea defitently so i dont have to spell too.
+      bro ive been proofreading already and OH. MY. GOD.
+      LMFAOOOOOO
+      HAHAHAH NAH IM SO WEAK
+      alright i gtg ill hit you up tom. 
+      bet bro, and imma really come through with the formatting
+      like did you see my personal webpage bro, it's so sick
+      yea ik its fire 
+      and it's RESPONSIVE *heart eyes*
+      bro when is this even due
+      in like two days 
+      son
+      YOURE BUGGING THATS NOT BADDIE STATUS WYD FAM
+      I created three different things. one my other brother didnt like and made me delete the other had multiple pages 
+      and this. 
+      oh ok bet bet, but like we gotta grind tomorrow then 
+      yea ik and there is another part thatss node. but node is easy so imma do it when i wake up. 
+      alright just snap me or something. 
+      alright thanks bro you da best 
+      nah bro, you da best, i love you
+      love you too bro. 
+      real note we gotta hang out 
+      YES YES YES PLEASE anytime you're free just say the word.
+      Imma see what im doing thurdsday maybe we can chill.
+      BRO BRO BRO STOP PLAYING WITH ME BRO
+      IM GOING TO MURROW ON THURSDAY MORNING WHY IS THAT PERFECT
+      NOOO WAYYY. MAYbe wedneday then 
+      wait what bruh im gonna be in your neighborhooodh, that would be better
+      oh yea your right lol im slow. 
+      i literally said it's perfect and you're like lemme change the day lmao
+      hahahah i didnt realize 
+      im so stressed with this, SAT, reg school, bro my brains working to many hours a day. 
+      bro i da felt that, I do literally so much, plus i gotta worry about sat and shi-
+      IK right and so many colleges accept you based on it.
+      facts bro smh, college system is not valid. 
+      faccts but i actually gtg now 
+      LMAOo
+      bro take care, pleasure just getting to talk to you again
+      same here i really laughed a lot 
+      same, i really missed this
+      yea i do too. alright gn. 
+      gn bro rest up <3
+      <3 -->
+          <!-- http://127.0.0.1:5500/index.html -->
+          https://allstarcodeorg.github.io/2019_summer_site/week1/day3/
+<footer>
+  <h2>Contact Me!</h2>
+
+  <div class="contact">
+    <p>
+      <a href="mailto:izzthewiz3@gmail.com" >
+      <img src= "data:image/jpeg;base64,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" class ="gmail">
+      </a>
+    </p>
+  </div>
+</footer>
+</body> 
+</html>
